@@ -1,0 +1,102 @@
+body {
+    background-color: #8B0000;
+    text-align: center;
+    color: #bf2b21;
+    padding: 50px;
+    font-family: "Libre Franklin";
+}
+
+#title {
+    font-size: 28px;
+    padding: 5px;
+}
+
+#fullpage {
+    background-color: white;
+    border: solid 10px #bf2b21;
+    border-radius: 25px;
+    padding-bottom: 40px;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 20px 20px #61000b;
+}
+
+
+/* TEXT STYLING */
+
+p {
+    font-size: 20px;
+}
+
+
+/* BUTTON/INPUT STYLING */
+
+input {
+    text-align: center;
+    width: 200px;
+    outline: none;
+    transition: 0.2s;
+    border: solid 3px #dbdbdb;
+    background-color: white;
+    font-family: "Libre Franklin";
+    padding: 5px;
+}
+
+input:focus {
+    border: solid 3px #bf2b21;
+}
+
+button {
+    border: none;
+    background-color: #bf2b21;
+    border: solid 2px #bf2b21;
+    font-family: "Libre Franklin";
+    padding: 6px;
+    color: white;
+    transition: 0.2s;
+    margin-left: 3px;
+}
+
+button:hover {
+    background-color: white;
+    color: #bf2b21;
+    box-shadow: 3px 3px #61000b;
+}
+
+button:active {
+    transform: translateY(3px) translateX(3px);
+    box-shadow: none;
+}
+
+select {
+    font-family: "Libre Franklin";
+    padding: 5px;
+    border: solid 3px #dbdbdb;
+    background-color: #dbdbdb;
+}
+
+option {
+    font-size: 18px;
+    font-family: "Libre Franklin";
+}
+
+
+/* IMAGE STYLING */
+
+img {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.album {
+    border: solid 6px #bf2b21;
+    box-shadow: 6px 6px #61000b;
+    margin: 10px;
+    margin-top: 25px;
+}
+
+.recordplayer {
+    width: 300px;
+    border: none;
+}
